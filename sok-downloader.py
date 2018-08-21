@@ -9,8 +9,9 @@ from bs4 import BeautifulSoup
 
 Defcon = "Defcon"
 BSidesLV = "BSidesLV"
-AllowedChoices = (Defcon, BSidesLV)
-Conferences = {Defcon: 32, BSidesLV: 39}
+Defcon26 = "Defcon26"
+AllowedChoices = (Defcon, BSidesLV, Defcon26)
+Conferences = {Defcon: 32, BSidesLV: 39, Defcon26: 54}
 
 PLAYLIST_URL = "https://www.sok-media.com/player?action=get_playlist&conf_id={conference}"
 VIDEO_URL = "https://www.sok-media.com/player?session_id={video}&action=get_video"
